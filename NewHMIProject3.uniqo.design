@@ -1,0 +1,26 @@
+Project:
+ Name: NewHMIProject3_Design
+ ProjectNamespaceIndex: 4
+ Description: ''
+ Company: ''
+ Copyright: ''
+ FormatVersion: 1
+ CoreVersion: 8.0.0.78
+ Dependencies:
+  2:
+   Uri: NewHMIProject3
+   RelativePath: NewHMIProject3.uniqo
+  3:
+   Uri: 'urn:QPlatform:CoreBase'
+   Module: QPlatform.CoreBase
+   Version: 8.0.5.118
+  5:
+   Uri: 'urn:QPlatform:TagImporter'
+   Module: QPlatform.TagImporter
+   Version: 2.0.23.118
+  6:
+   Uri: 'urn:QPlatform:CoDeSysDriverTagImporter'
+   Module: QPlatform.CoDeSysDriverTagImporter
+   Version: 3.0.1.118
+ Nodes:
+ - File: DesignTimeNodes/CommDrivers/CODESYSDriver1/CODESYSStation1/TagImporter.yaml

@@ -1,0 +1,89 @@
+Name: Tags
+Type: BaseObjectType
+Children:
+- Name: Application
+  Type: TagStructure
+  Children:
+  - Name: PLC_PRG
+    Type: TagStructure
+    Children:
+    - Name: Bool1
+      Id: g=0d14dd80cc7fa2a2b5eb5a4240272e56
+      Type: CoDeSysTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Application.PLC_PRG.Bool1"
+      - Name: Quality
+        Type: BaseDataVariableType
+        DataType: ns=7;Quality
+        AccessLevel: Read
+        Value: 0
+      - Name: OperationCode
+        Type: BaseDataVariableType
+        DataType: TagOperationCode
+        AccessLevel: Read
+        Value: -2144272384
+    - Name: Bool2
+      Id: g=34e32fb6e7441669fbe7f129c685dd9d
+      Type: CoDeSysTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Application.PLC_PRG.Bool2"
+      - Name: Quality
+        Type: BaseDataVariableType
+        DataType: ns=7;Quality
+        AccessLevel: Read
+        Value: 0
+      - Name: OperationCode
+        Type: BaseDataVariableType
+        DataType: TagOperationCode
+        AccessLevel: Read
+        Value: -2144272384
+    - Name: Int1
+      Id: g=33a62a4a03e1e6dc1de5f0a93cd36257
+      Type: CoDeSysTag
+      DataType: Int16
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Application.PLC_PRG.Int1"
+      - Name: Quality
+        Type: BaseDataVariableType
+        DataType: ns=7;Quality
+        AccessLevel: Read
+        Value: 0
+      - Name: OperationCode
+        Type: BaseDataVariableType
+        DataType: TagOperationCode
+        AccessLevel: Read
+        Value: -2144272384
+    - Name: Int2
+      Id: g=8c89408cde4f22a8752828155a9db343
+      Type: CoDeSysTag
+      DataType: Int16
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Application.PLC_PRG.Int2"
+      - Name: Quality
+        Type: BaseDataVariableType
+        DataType: ns=7;Quality
+        AccessLevel: Read
+        Value: 0
+      - Name: OperationCode
+        Type: BaseDataVariableType
+        DataType: TagOperationCode
+        AccessLevel: Read
+        Value: -2144272384
