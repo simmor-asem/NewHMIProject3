@@ -1,2 +1,8 @@
 Name: Model
 Type: FolderType
+Children:
+- Name: Setpoint
+  Id: g=5a21738795aa1ce2fff412a6658da555
+  Type: BaseDataVariableType
+  DataType: Int32
+  Value: 50
